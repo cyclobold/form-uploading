@@ -1,0 +1,14 @@
+input[type='file']{
+    display: none;
+}
+
+label[for='upload_picture']{
+    border: 2px solid #000;
+    padding: .3em;
+}
+
+label[for='upload_picture']:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
